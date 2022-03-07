@@ -1,0 +1,11 @@
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\bin\Debug\net6.0\GS.Core.deps.json
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\bin\Debug\net6.0\GS.Core.dll
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\bin\Debug\net6.0\ref\GS.Core.dll
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\bin\Debug\net6.0\GS.Core.pdb
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\obj\Debug\net6.0\GS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\obj\Debug\net6.0\GS.Core.AssemblyInfoInputs.cache
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\obj\Debug\net6.0\GS.Core.AssemblyInfo.cs
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\obj\Debug\net6.0\GS.Core.csproj.CoreCompileInputs.cache
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\obj\Debug\net6.0\GS.Core.dll
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\obj\Debug\net6.0\ref\GS.Core.dll
+C:\Users\natan_barros\Projects\GestorSet\GS.Core\obj\Debug\net6.0\GS.Core.pdb

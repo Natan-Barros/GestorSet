@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    },
+    "2c0d768b-7339-48f5-b221-1a1f145af4a9": {
+      "ProjectGuid": "2c0d768b-7339-48f5-b221-1a1f145af4a9",
+      "DisplayName": "GS.Core",
+      "ColorIndex": 0
+    },
+    "7ab80bb6-bf78-4427-b589-de4a60856c71": {
+      "ProjectGuid": "7ab80bb6-bf78-4427-b589-de4a60856c71",
+      "DisplayName": "GS.Receitas.API",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

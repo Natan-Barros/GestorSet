@@ -1,34 +1,46 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{981ECD15-892E-4ECC-8D96-84CBBD336BFE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C9A575B-9774-4E0E-AC40-A8E327745068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Receitas", "services\GS.Receitas\GS.Receitas.csproj", "{C49FAFE4-6983-4C45-9398-22F0EA8ABA65}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{78816915-21C9-4746-8E9E-E26D598EBBB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Despesas", "services\GS.Despesas\GS.Despesas.csproj", "{AD60CBAC-02A8-48A0-926F-F63BC14A7FF4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "receitas", "receitas", "{30F486EA-D092-45FB-852F-5C70EB97C469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Receitas.API", "src\services\GS.Receitas.API\GS.Receitas.API.csproj", "{7AB80BB6-BF78-4427-B589-DE4A60856C71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "building blocks", "building blocks", "{05D00DC1-F11E-434B-B347-BE3BFE142B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GS.Core", "GS.Core\GS.Core.csproj", "{2C0D768B-7339-48F5-B221-1A1F145AF4A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AB80BB6-BF78-4427-B589-DE4A60856C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB80BB6-BF78-4427-B589-DE4A60856C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB80BB6-BF78-4427-B589-DE4A60856C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB80BB6-BF78-4427-B589-DE4A60856C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0D768B-7339-48F5-B221-1A1F145AF4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0D768B-7339-48F5-B221-1A1F145AF4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0D768B-7339-48F5-B221-1A1F145AF4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0D768B-7339-48F5-B221-1A1F145AF4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C49FAFE4-6983-4C45-9398-22F0EA8ABA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C49FAFE4-6983-4C45-9398-22F0EA8ABA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C49FAFE4-6983-4C45-9398-22F0EA8ABA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C49FAFE4-6983-4C45-9398-22F0EA8ABA65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD60CBAC-02A8-48A0-926F-F63BC14A7FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD60CBAC-02A8-48A0-926F-F63BC14A7FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD60CBAC-02A8-48A0-926F-F63BC14A7FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD60CBAC-02A8-48A0-926F-F63BC14A7FF4}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C49FAFE4-6983-4C45-9398-22F0EA8ABA65} = {981ECD15-892E-4ECC-8D96-84CBBD336BFE}
-		{AD60CBAC-02A8-48A0-926F-F63BC14A7FF4} = {981ECD15-892E-4ECC-8D96-84CBBD336BFE}
+		{78816915-21C9-4746-8E9E-E26D598EBBB5} = {4C9A575B-9774-4E0E-AC40-A8E327745068}
+		{30F486EA-D092-45FB-852F-5C70EB97C469} = {78816915-21C9-4746-8E9E-E26D598EBBB5}
+		{7AB80BB6-BF78-4427-B589-DE4A60856C71} = {30F486EA-D092-45FB-852F-5C70EB97C469}
+		{05D00DC1-F11E-434B-B347-BE3BFE142B90} = {4C9A575B-9774-4E0E-AC40-A8E327745068}
+		{2C0D768B-7339-48F5-B221-1A1F145AF4A9} = {05D00DC1-F11E-434B-B347-BE3BFE142B90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB48D7A5-156D-4DB7-98F5-5EE4564B2349}
 	EndGlobalSection
 EndGlobal
